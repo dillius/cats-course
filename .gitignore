@@ -147,3 +147,7 @@ project/plugins/project/
 ### Scala ###
 
 # End of https://www.toptal.com/developers/gitignore/api/scala,intellij,java,sbt
+
+
+### Modern Additions ###
+.bsp
