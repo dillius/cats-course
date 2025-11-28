@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cats.iml" filepath="$PROJECT_DIR$/.idea/modules/cats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cats-course/cats.iml" filepath="$PROJECT_DIR$/.idea/modules/cats-course/cats.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cats-course/cats.cats-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cats-course/cats.cats-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cats-course/cats.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cats-course/cats.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cats-course/cats.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cats-course/cats.test.iml" />
