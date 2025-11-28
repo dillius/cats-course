@@ -24,11 +24,15 @@ object TypeClasses {
     }
   }
 
-  def convertListToJSON[T](list: List[T])(implicit serializer: JSONSerializer[T]): String =
+  def convertListToJSON[T](list: List[T])(implicit
+      serializer: JSONSerializer[T]
+  ): String =
     list.map(serializer.toJson).mkString("[", ",", "]")
 
   object JSONSyntax {
-    implicit class JSONSerializable[T](value: T)(implicit serializer: JSONSerializer[T]) {
+    implicit class JSONSerializable[T](value: T)(implicit
+        serializer: JSONSerializer[T]
+    ) {
       def toJson: String = serializer.toJson(value)
     }
   }
